@@ -4,8 +4,6 @@ import tkinter as tk
 from time import sleep
 
 txtFont = "Arial"
-txtSize = 14
-txtResSize = 24
 
 LARGE_FONT_STYLE = (txtFont, 40, "bold")
 SMALL_FONT_STYLE = (txtFont, 16)
@@ -36,7 +34,7 @@ class Calculator:
         self.window = tk.Tk()
         self.window.geometry("320x420")
         self.window.resizable(0, 0)
-        self.window.title("RED Calculator")
+        self.window.title("Calculator")
         self.iconPath = self.resource_path('Calculator_App.ico')
         self.window.iconbitmap(self.iconPath)
 
